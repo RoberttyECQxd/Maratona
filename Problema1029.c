@@ -17,7 +17,7 @@ int main(){
 		cont = 0;
 		scanf("%d", &X);
 		num_calls = fibCont(X);
-		printf("fib(%d) = %d calls = %d\n",X,cont,num_calls);
+		printf("fib(%d) = %d calls = %d\n",X,cont-1,num_calls);
 	}
 	
 	return 0;
